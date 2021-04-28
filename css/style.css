@@ -1,0 +1,130 @@
+/******************************Tag Selectors******************************/
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 125%;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #206a5d;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  color: #206a5d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #206a5d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 4%;
+}
+
+/*
+div {
+  background-color: #87CEEB	;
+}
+*/
+/******************************Class Selectors******************************/
+.top-container {
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.sub-heading {
+  font-weight: normal;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Web-Development {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.brain {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.code {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*
+.middle-container {
+}
+*/
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #3dd89f;
+	background:linear-gradient(to bottom, #3dd89f 5%, #3dd89f 100%);
+	background-color:#3dd89f;
+	border-radius:4px;
+	border:1px solid #3dd89f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3dd89f;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #206a5d 5%, #206a5d 100%);
+	background-color:#206a5d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-container {
+  background-color: #3dd89f;
+  line-height: 2;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-link {
+  color: #206a5d;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.copy-right {
+  color: #EAF6F6;
+}
